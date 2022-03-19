@@ -1,10 +1,7 @@
 /* Animation area */
 
-:host {
-  background: #202124;
-}
-
 .circles {
+  background: #202124;
   position: absolute;
   top: 0;
   left: 0;
