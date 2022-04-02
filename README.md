@@ -1,31 +1,33 @@
 # Angular Animated Background | by maxxrl
 [Demo Background Component](https://maxxrl.github.io/background-demo/)
 
-## Installation
+## How to deploy lib
 
+Login
 ```javascript
-npm install maxxrl-background
+npm login
+```
+
+Upgrade version package.json inside project folder and
+update readme if necessary
+
+Build
+```javascript
+ng build
+```
+
+Publish to npm
+```javascript
+cd /projects/background
+npm publish 
 ```
 
 ## Usage
-Add module in **app.module.ts**
+https://github.com/maxxrl/background-demo
 
-```javascript
-import {BackgroundModule} from "maxxrl-background";
-```
-Add in **imports** section
+## Author
+https://github.com/maxxrl
 
-```javascript
-imports: [
-  BrowserModule,
-  BackgroundModule
-]
-```
-Add in **app.component.html**
-```javascript
-<animated-circle-background></animated-circle-background>
-```
-
-License
-- MIT
+##License
+MIT
 
