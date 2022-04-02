@@ -13,12 +13,12 @@ update readme if necessary
 
 Build
 ```javascript
-ng build
+ng build background
 ```
 
 Publish to npm
 ```javascript
-cd /projects/background
+cd /dist/background
 npm publish 
 ```
 
