@@ -23,11 +23,10 @@ imports: [
 ```
 Add in **app.component.html** pass any css color you like - make sure parent element is position:relative
 ```javascript
-<div style="postiion:relative">
+<div style="position:relative; height: 100vh;">
   <animated-circle-background backgroundColor="#202124" circleColor="#FFFFFF33"></animated-circle-background>
 </div>
 ```
-
 
 License
 - MIT
