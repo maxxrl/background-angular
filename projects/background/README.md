@@ -21,12 +21,13 @@ imports: [
   BackgroundModule
 ]
 ```
-Add in **app.component.html** pass any css color you like
+Add in **app.component.html** pass any css color you like - make sure parent element is position:relative
 ```javascript
-<animated-circle-background backgroundColor="#202124" circleColor="FFFFFF33"></animated-circle-background>
+<div style="postiion:relative">
+  <animated-circle-background backgroundColor="#202124" circleColor="#FFFFFF33"></animated-circle-background>
+</div>
 ```
 
-!!!Hint parent element must be position: relative
 
 License
 - MIT
