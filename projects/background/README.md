@@ -1,24 +1,33 @@
-# Background
+# Angular Animated Background | by maxxrl
+[Demo Background Component](https://maxxrl.github.io/background-demo/)
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.0.
+## Installation
 
-## Code scaffolding
+```javascript
+npm install maxxrl-background
+```
 
-Run `ng generate component component-name --project background` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project background`.
-> Note: Don't forget to add `--project background` or else it will be added to the default project in your `angular.json` file. 
+## Usage
+Add module in **app.module.ts**
 
-## Build
+```javascript
+import {BackgroundModule} from "maxxrl-background";
+```
+Add in **imports** section
 
-Run `ng build background` to build the project. The build artifacts will be stored in the `dist/` directory.
+```javascript
+imports: [
+  BrowserModule,
+  BackgroundModule
+]
+```
+Add in **app.component.html**
+```javascript
+<animated-circle-background></animated-circle-background>
+```
 
-## Publishing
+!!!Hint parent element must be position: relative
 
-After building your library with `ng build background`, go to the dist folder `cd dist/background` and run `npm publish`.
+License
+- MIT
 
-## Running unit tests
-
-Run `ng test background` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
